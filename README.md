@@ -11,18 +11,22 @@ Agenda web hecha con React y Vite. Lista los contactos guardados y permite agreg
 ## Estructura
 
 ```
-agenda-react/
+Tarea4-Agenda-React/
+├── src/
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── api.js
+│   ├── index.css
+│   └── components/
+│       ├── ListaContactos.jsx
+│       └── AgregarContacto.jsx
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── api.js
-    ├── index.css
-    └── components/
-        ├── ListaContactos.jsx
-        └── AgregarContacto.jsx
+├── lista.png
+├── Contacto.png
+└── Contacto Registrado.png
 ```
 
 ## Cómo ejecutarlo
